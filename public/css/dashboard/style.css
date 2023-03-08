@@ -255,7 +255,12 @@ nav {
     box-shadow: var(--box-shadow);
     border: var(--classic-border);
     width: 100%;
+    position: relative;
+    opacity: 0;
+    transform: translateX(-100px);
+    animation: fadein 1s ease-in-out 0s both;
 }
+
 
 .tag {
     background-color: var(--color-primary);
@@ -362,6 +367,22 @@ nav {
     border-radius: 2.5rem;
     height: 100vh;
 }
+
+/* Animations starts */
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Animations ends */
 
 
 @media(min-width: 1024px) {

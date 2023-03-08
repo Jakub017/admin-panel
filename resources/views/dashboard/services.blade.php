@@ -38,6 +38,41 @@
                     </div>
                 </td>
             </tr>
+            <tr>
+                <td><img class="record-photo" src="{{asset('img/recycle.jpg')}}" alt=""></td>
+                <td>Recykling</td>
+                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, officiis. Doloremque quam
+                    veritatis
+                    sunt quae molestiae molestias...</td>
+                <td>
+                    <div class="actions">
+                        <a class="see-record" href="#"><img src="{{asset('img/see-icon.png')}}" alt=""> Zobacz</a>
+                        <a class="edit-record" href="#"><img src="{{asset('img/edit-icon.png')}}" alt=""> Edytuj</a>
+                        <form action="#">
+                            <button class="delete-record"><img src="{{asset('img/delete-icon.png')}}" alt="">
+                                Usuń</button>
+                        </form>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><img class="record-photo" src="{{asset('img/recycle.jpg')}}" alt=""></td>
+                <td>Recykling</td>
+                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, officiis. Doloremque quam
+                    veritatis
+                    sunt quae molestiae molestias...</td>
+                <td>
+                    <div class="actions">
+                        <a class="see-record" href="#"><img src="{{asset('img/see-icon.png')}}" alt=""> Zobacz</a>
+                        <a class="edit-record" href="#"><img src="{{asset('img/edit-icon.png')}}" alt=""> Edytuj</a>
+                        <form action="#">
+                            <button class="delete-record"><img src="{{asset('img/delete-icon.png')}}" alt="">
+                                Usuń</button>
+                        </form>
+                    </div>
+                </td>
+            </tr>
+
         </tbody>
     </table>
 </div>

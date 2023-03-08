@@ -37,6 +37,36 @@
                     </div>
                 </td>
             </tr>
+            <tr>
+                <td><img class="avatar-photo" src="{{asset('img/recycle.jpg')}}" alt=""></td>
+                <td>Jakub Lipiński</td>
+                <td>j.lipinski017@gmail.com</td>
+                <td>
+                    <div class="actions">
+                        <a class="see-record" href="#"><img src="{{asset('img/see-icon.png')}}" alt=""> Zobacz</a>
+                        <a class="edit-record" href="#"><img src="{{asset('img/edit-icon.png')}}" alt=""> Edytuj</a>
+                        <form action="#">
+                            <button class="delete-record"><img src="{{asset('img/delete-icon.png')}}" alt="">
+                                Usuń</button>
+                        </form>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><img class="avatar-photo" src="{{asset('img/recycle.jpg')}}" alt=""></td>
+                <td>Jakub Lipiński</td>
+                <td>j.lipinski017@gmail.com</td>
+                <td>
+                    <div class="actions">
+                        <a class="see-record" href="#"><img src="{{asset('img/see-icon.png')}}" alt=""> Zobacz</a>
+                        <a class="edit-record" href="#"><img src="{{asset('img/edit-icon.png')}}" alt=""> Edytuj</a>
+                        <form action="#">
+                            <button class="delete-record"><img src="{{asset('img/delete-icon.png')}}" alt="">
+                                Usuń</button>
+                        </form>
+                    </div>
+                </td>
+            </tr>
         </tbody>
     </table>
 </div>
