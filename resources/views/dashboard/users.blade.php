@@ -5,10 +5,10 @@
 <h2 class="section-heading">Użytkownicy</h2>
 <h4 class="section-subheading">Lista osób, które posiadają dostęp do panelu administracyjnego.</h4>
 <div class="top-bar">
-    <a href="#" class="add-button">Dodaj użytkownika +</a>
+    <a href="#" class="add-button">Dodaj klienta +</a>
     <form action="#" class="search-form">
         <input class="search-input" type="text" placeholder="Szukaj...">
-        <img src="{{asset('img/search-icon.png')}}" alt="" class="search-icon">
+        <img src="{{asset('img/actions-icons/search-icon.png')}}" alt="" class="search-icon">
     </form>
 </div>
 <div class="records-wrapper">
@@ -28,10 +28,13 @@
                 <td>j.lipinski017@gmail.com</td>
                 <td>
                     <div class="actions">
-                        <a class="see-record" href="#"><img src="{{asset('img/see-icon.png')}}" alt=""> Zobacz</a>
-                        <a class="edit-record" href="#"><img src="{{asset('img/edit-icon.png')}}" alt=""> Edytuj</a>
+                        <a class="see-record" href="#"><img src="{{asset('img/actions-icons/see-icon.png')}}" alt="">
+                            Zobacz</a>
+                        <a class="edit-record" href="#"><img src="{{asset('img/actions-icons/edit-icon.png')}}" alt="">
+                            Edytuj</a>
                         <form action="#">
-                            <button class="delete-record"><img src="{{asset('img/delete-icon.png')}}" alt="">
+                            <button class="delete-record"><img src="{{asset('img/actions-icons/delete-icon.png')}}"
+                                    alt="">
                                 Usuń</button>
                         </form>
                     </div>
@@ -43,10 +46,13 @@
                 <td>j.lipinski017@gmail.com</td>
                 <td>
                     <div class="actions">
-                        <a class="see-record" href="#"><img src="{{asset('img/see-icon.png')}}" alt=""> Zobacz</a>
-                        <a class="edit-record" href="#"><img src="{{asset('img/edit-icon.png')}}" alt=""> Edytuj</a>
+                        <a class="see-record" href="#"><img src="{{asset('img/actions-icons/see-icon.png')}}" alt="">
+                            Zobacz</a>
+                        <a class="edit-record" href="#"><img src="{{asset('img/actions-icons/edit-icon.png')}}" alt="">
+                            Edytuj</a>
                         <form action="#">
-                            <button class="delete-record"><img src="{{asset('img/delete-icon.png')}}" alt="">
+                            <button class="delete-record"><img src="{{asset('img/actions-icons/delete-icon.png')}}"
+                                    alt="">
                                 Usuń</button>
                         </form>
                     </div>
@@ -58,10 +64,13 @@
                 <td>j.lipinski017@gmail.com</td>
                 <td>
                     <div class="actions">
-                        <a class="see-record" href="#"><img src="{{asset('img/see-icon.png')}}" alt=""> Zobacz</a>
-                        <a class="edit-record" href="#"><img src="{{asset('img/edit-icon.png')}}" alt=""> Edytuj</a>
+                        <a class="see-record" href="#"><img src="{{asset('img/actions-icons/see-icon.png')}}" alt="">
+                            Zobacz</a>
+                        <a class="edit-record" href="#"><img src="{{asset('img/actions-icons/edit-icon.png')}}" alt="">
+                            Edytuj</a>
                         <form action="#">
-                            <button class="delete-record"><img src="{{asset('img/delete-icon.png')}}" alt="">
+                            <button class="delete-record"><img src="{{asset('img/actions-icons/delete-icon.png')}}"
+                                    alt="">
                                 Usuń</button>
                         </form>
                     </div>

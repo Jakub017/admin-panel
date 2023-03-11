@@ -8,7 +8,7 @@
     <a href="#" class="add-button">Dodaj klienta +</a>
     <form action="#" class="search-form">
         <input class="search-input" type="text" placeholder="Szukaj...">
-        <img src="{{asset('img/search-icon.png')}}" alt="" class="search-icon">
+        <img src="{{asset('img/actions-icons/search-icon.png')}}" alt="" class="search-icon">
     </form>
 </div>
 <div class="records-wrapper">
@@ -31,10 +31,13 @@
                 <td>kontakt@lipinskijakub.pl</td>
                 <td class="tags"><a class="tag" href="#">Sprzedający</a> <a class="tag" href="#">Newsletter</a></td>
                 <td class="actions">
-                    <a class="see-record" href="#"><img src="{{asset('img/see-icon.png')}}" alt=""> Zobacz</a>
-                    <a class="edit-record" href="#"><img src="{{asset('img/edit-icon.png')}}" alt=""> Edytuj</a>
+                    <a class="see-record" href="#"><img src="{{asset('img/actions-icons/see-icon.png')}}" alt="">
+                        Zobacz</a>
+                    <a class="edit-record" href="#"><img src="{{asset('img/actions-icons/edit-icon.png')}}" alt="">
+                        Edytuj</a>
                     <form action="#">
-                        <button class="delete-record"><img src="{{asset('img/delete-icon.png')}}" alt=""> Usuń</button>
+                        <button class="delete-record"><img src="{{asset('img/actions-icons/delete-icon.png')}}" alt="">
+                            Usuń</button>
                     </form>
                 </td>
             </tr>
@@ -45,10 +48,13 @@
                 <td>kontakt@lipinskijakub.pl</td>
                 <td class="tags"><a class="tag" href="#">Sprzedający</a> <a class="tag" href="#">Newsletter</a></td>
                 <td class="actions">
-                    <a class="see-record" href="#"><img src="{{asset('img/see-icon.png')}}" alt=""> Zobacz</a>
-                    <a class="edit-record" href="#"><img src="{{asset('img/edit-icon.png')}}" alt=""> Edytuj</a>
+                    <a class="see-record" href="#"><img src="{{asset('img/actions-icons/see-icon.png')}}" alt="">
+                        Zobacz</a>
+                    <a class="edit-record" href="#"><img src="{{asset('img/actions-icons/edit-icon.png')}}" alt="">
+                        Edytuj</a>
                     <form action="#">
-                        <button class="delete-record"><img src="{{asset('img/delete-icon.png')}}" alt=""> Usuń</button>
+                        <button class="delete-record"><img src="{{asset('img/actions-icons/delete-icon.png')}}" alt="">
+                            Usuń</button>
                     </form>
                 </td>
             </tr>
@@ -59,10 +65,13 @@
                 <td>kontakt@lipinskijakub.pl</td>
                 <td class="tags"><a class="tag" href="#">Sprzedający</a> <a class="tag" href="#">Newsletter</a></td>
                 <td class="actions">
-                    <a class="see-record" href="#"><img src="{{asset('img/see-icon.png')}}" alt=""> Zobacz</a>
-                    <a class="edit-record" href="#"><img src="{{asset('img/edit-icon.png')}}" alt=""> Edytuj</a>
+                    <a class="see-record" href="#"><img src="{{asset('img/actions-icons/see-icon.png')}}" alt="">
+                        Zobacz</a>
+                    <a class="edit-record" href="#"><img src="{{asset('img/actions-icons/edit-icon.png')}}" alt="">
+                        Edytuj</a>
                     <form action="#">
-                        <button class="delete-record"><img src="{{asset('img/delete-icon.png')}}" alt=""> Usuń</button>
+                        <button class="delete-record"><img src="{{asset('img/actions-icons/delete-icon.png')}}" alt="">
+                            Usuń</button>
                     </form>
                 </td>
             </tr>
@@ -73,10 +82,13 @@
                 <td>kontakt@lipinskijakub.pl</td>
                 <td class="tags"><a class="tag" href="#">Sprzedający</a> <a class="tag" href="#">Newsletter</a></td>
                 <td class="actions">
-                    <a class="see-record" href="#"><img src="{{asset('img/see-icon.png')}}" alt=""> Zobacz</a>
-                    <a class="edit-record" href="#"><img src="{{asset('img/edit-icon.png')}}" alt=""> Edytuj</a>
+                    <a class="see-record" href="#"><img src="{{asset('img/actions-icons/see-icon.png')}}" alt="">
+                        Zobacz</a>
+                    <a class="edit-record" href="#"><img src="{{asset('img/actions-icons/edit-icon.png')}}" alt="">
+                        Edytuj</a>
                     <form action="#">
-                        <button class="delete-record"><img src="{{asset('img/delete-icon.png')}}" alt=""> Usuń</button>
+                        <button class="delete-record"><img src="{{asset('img/actions-icons/delete-icon.png')}}" alt="">
+                            Usuń</button>
                     </form>
                 </td>
             </tr>
@@ -88,10 +100,13 @@
                 <td class="tags"><a class="tag" href="#">Sprzedający</a> <a class="tag" href="#">Newsletter</a></td>
                 <td>
                     <div class="actions">
-                        <a class="see-record" href="#"><img src="{{asset('img/see-icon.png')}}" alt=""> Zobacz</a>
-                        <a class="edit-record" href="#"><img src="{{asset('img/edit-icon.png')}}" alt=""> Edytuj</a>
+                        <a class="see-record" href="#"><img src="{{asset('img/actions-icons/see-icon.png')}}" alt="">
+                            Zobacz</a>
+                        <a class="edit-record" href="#"><img src="{{asset('img/actions-icons/edit-icon.png')}}" alt="">
+                            Edytuj</a>
                         <form action="#">
-                            <button class="delete-record"><img src="{{asset('img/delete-icon.png')}}" alt="">
+                            <button class="delete-record"><img src="{{asset('img/actions-icons/delete-icon.png')}}"
+                                    alt="">
                                 Usuń</button>
                         </form>
                     </div>
