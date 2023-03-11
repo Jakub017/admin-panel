@@ -12,6 +12,7 @@ Route::controller(DashboardController::class)->group(function(){
     Route::get('/dashboard/clients', 'clients')->middleware(['auth', 'verified'])->name('dashboard.clients');
     Route::get('/dashboard/services', 'services')->middleware(['auth', 'verified'])->name('dashboard.services');
     Route::get('/dashboard/users', 'users')->middleware(['auth', 'verified'])->name('dashboard.users');
+    Route::get('/dashboard/posts', 'posts')->middleware(['auth', 'verified'])->name('dashboard.posts');
 });
 
 

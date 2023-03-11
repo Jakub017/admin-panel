@@ -24,7 +24,8 @@
                         src="{{asset('img/menu-icons/people-icon.png')}}" alt="">Klienci</a>
             </li>
             <li class="menu-item">
-                <a href="#" class="menu-link"><img src="{{asset('img/menu-icons/posts-icon.png')}}" alt="">Wpisy</a>
+                <a href="{{route('dashboard.posts')}}" class="menu-link"><img
+                        src="{{asset('img/menu-icons/posts-icon.png')}}" alt="">Aktualności</a>
             </li>
             <li class="menu-item">
                 <a href="{{route('dashboard.services')}}" class="menu-link"><img
