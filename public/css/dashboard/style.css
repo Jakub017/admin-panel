@@ -43,11 +43,46 @@ body {
     padding: 1.5rem;
 }
 
+/* Nav styles starts */
+
 nav {
     width: 100%;
     height: 80px;
-    /* background-color: green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1.5rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
 }
+
+.user-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.user-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.user-name {
+    font-size: 1.6rem;
+    color: #fff;
+    display: block;
+    margin-bottom: .5rem;
+}
+
+.user-email {
+    font-size: 1.4rem;
+    color: #ffffff80;
+}
+
+/* Nav styles ends */
 
 /* sidebar styles starts */
 
@@ -105,9 +140,7 @@ nav {
 
 .menu-item {
     width: 100%;
-
 }
-
 
 .menu-link {
     display: flex;
@@ -370,8 +403,8 @@ nav {
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .content-container {
@@ -424,7 +457,9 @@ nav {
 }
 
 .form-half-group,
-.record-half-group {
+.record-half-group,
+.form-third-group,
+.record-third-group {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -434,7 +469,9 @@ nav {
 }
 
 .form-half-group .dashboard-form-group,
-.record-half-group .record-info-group {
+.form-third-group .dashboard-form-group,
+.record-half-group .record-info-group,
+.record-third-group .record-info-group {
     flex-basis: 100%;
 }
 
@@ -456,6 +493,7 @@ nav {
     color: var(--secondary-text-color);
     outline-color: var(--color-primary);
     display: block;
+    resize: vertical;
 }
 
 .form-buttons {
@@ -544,5 +582,10 @@ nav {
     .form-half-group .dashboard-form-group,
     .record-half-group .record-info-group {
         flex-basis: calc(50% - 1rem);
+    }
+
+    .form-third-group .dashboard-form-group,
+    .record-third-group .record-info-group {
+        flex-basis: calc(33% - 1rem);
     }
 }

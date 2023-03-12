@@ -41,6 +41,13 @@ Route::controller(ClientsController::class)->group(function(){
 
 Route::controller(PostsController::class)->group(function(){
     Route::get('/dashboard/posts', 'index')->middleware(['auth', 'verified'])->name('posts.index');
+    Route::get('/dashboard/posts/add', 'create')->middleware(['auth', 'verified'])->name('posts.create');
+    Route::get('/dashboard/posts/{id}', 'show')->middleware(['auth', 'verified'])->name('posts.show');
+    Route::get('/dashboard/post/{id}/edit', 'edit')->middleware(['auth', 'verified'])->name('posts.edit');
+
+    Route::put('/dashboard/posts/{id}', 'update')->middleware(['auth', 'verified'])->name('posts.update');
+    Route::put('/dashboard/posts/new', 'store')->middleware(['auth', 'verified'])->name('posts.store');
+    Route::delete('/dashboard/post/{id}', 'destroy')->middleware(['auth', 'verified'])->name('posts.destroy');
 });
 
 Route::controller(UsersController::class)->group(function(){

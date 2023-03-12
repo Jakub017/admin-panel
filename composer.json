@@ -9,6 +9,7 @@
         "guzzlehttp/guzzle": "^7.2",
         "harvesthq/chosen": "^1.8",
         "laravel/framework": "^10.0",
+        "laravel/helpers": "^1.6",
         "laravel/sanctum": "^3.2",
         "laravel/tinker": "^2.8"
     },
