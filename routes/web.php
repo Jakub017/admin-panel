@@ -1,6 +1,5 @@
 <?php
 
-use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,11 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
-
-
+// All dashboard routes (index, create, store, etc.)
 require __DIR__.'/dashboard.php';
 
+// Breeze routes (login, register, logout, etc.)
 require __DIR__.'/auth.php';

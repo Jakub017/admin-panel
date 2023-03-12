@@ -11,7 +11,7 @@
                 </a>
             </li>
             <li class="menu-item">
-                <a href="{{route('dashboard.users')}}" class="menu-link"><img
+                <a href="{{route('users.index')}}" class="menu-link"><img
                         src="{{asset('img/menu-icons/users-icon.png')}}" alt="">Użytkownicy</a>
             </li>
         </ul>
@@ -20,15 +20,15 @@
         <h3 class="menu-group-name">Zarządzanie witryną</h3>
         <ul class="menu-list">
             <li class="menu-item">
-                <a href="{{route('dashboard.clients')}}" class="menu-link"><img
+                <a href="{{route('clients.index')}}" class="menu-link"><img
                         src="{{asset('img/menu-icons/people-icon.png')}}" alt="">Klienci</a>
             </li>
             <li class="menu-item">
-                <a href="{{route('dashboard.posts')}}" class="menu-link"><img
+                <a href="{{route('posts.index')}}" class="menu-link"><img
                         src="{{asset('img/menu-icons/posts-icon.png')}}" alt="">Aktualności</a>
             </li>
             <li class="menu-item">
-                <a href="{{route('dashboard.services')}}" class="menu-link"><img
+                <a href="{{route('services.index')}}" class="menu-link"><img
                         src="{{asset('img/menu-icons/services-icon.png')}}" alt="">Usługi</a>
             </li>
         </ul>
